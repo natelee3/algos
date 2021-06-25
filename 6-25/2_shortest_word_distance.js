@@ -6,7 +6,7 @@ const words = ["practice", "makes", "perfect", "coding", "makes"];
 //expected output = 3
 
 function shortestWordDistance(arr, word1, word2) {
-    if (!arr.includes(word1) | !arr.includes(word2)) {
+    if (!arr.includes(word1) || !arr.includes(word2)) {
         return console.log ('Word not found in array')
     }
     let index1 = [], i = -1;
