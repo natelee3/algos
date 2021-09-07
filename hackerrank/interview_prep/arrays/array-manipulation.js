@@ -39,6 +39,7 @@ function arrayManipulation(n, queries) {
         arr[start-1].s += val;
         arr[end-1].e += val;
     });
+    console.log(arr)
     //Loop through the new array, adding start values to the current and comparing to max, then subtracting any ending values
     arr.forEach(item => {
         if (item) {
